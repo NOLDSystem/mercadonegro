@@ -1,0 +1,53 @@
+@charset "UTF-8";
+:root {
+    --cor0: #59ADA8;
+    --cor1: #78CCA2;
+    --cor2: #66787A;
+    --cor3: #E49B9C;
+    --cor4: #893962;
+    --cor5: #8d2058;
+}
+
+main {
+    width: auto;
+    height: auto;
+    margin-left: 150px;
+    padding: 10px;
+    background-color: var(--cor3);
+}
+
+.form-main {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.form-main-div {
+    width: 230px;
+    height: 250px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.form-main-div>.produto-compra {
+    padding: 5px;
+}
+
+.form-main-div>.btn {
+    width: 95%;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    background-color: var(--cor3);
+    border: 2px solid var(--cor4);
+}
+
+.img-vendas {
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}

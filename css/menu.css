@@ -1,0 +1,49 @@
+@charset "UTF-8";
+:root {
+    --cor0: #59ADA8;
+    --cor1: #78CCA2;
+    --cor2: #66787A;
+    --cor3: #E49B9C;
+    --cor4: #893962;
+    --cor5: #8d2058;
+}
+
+.form-1 {
+    width: 150px;
+    height: 100%;
+    background-color: var(--cor4);
+    position: fixed;
+}
+
+.mod-2 {
+    width: 150px;
+    height: 100%;
+}
+
+.prf {
+    background-color: var(--cor3);
+}
+
+.prf>p {
+    padding: 10px;
+    text-align: center;
+}
+
+.mod-3>div {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.mod-3>div>a {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.mod-3>div>a:hover {
+    padding: 5px;
+    background-color: var(--cor5);
+}

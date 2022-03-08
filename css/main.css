@@ -1,0 +1,49 @@
+    @charset "UTF-8";
+     :root {
+        --cor0: #59ADA8;
+        --cor1: #78CCA2;
+        --cor2: #66787A;
+        --cor3: #E49B9C;
+        --cor4: #893962;
+        --cor5: #8d2058;
+    }
+    
+    main>.publico-foto {
+        width: 250px;
+        height: 300px;
+        display: inline-block;
+        border: 2px solid var(--cor4);
+        border-radius: 10px;
+    }
+    
+    main>.publico-foto>.img-1 {
+        width: 250px;
+        height: 225px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .icon {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 10px 10px 10px;
+    }
+    
+    .icon-1 {
+        width: 40px;
+        height: 18px;
+        border: 1px solid var(--cor4);
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        transition: .9s;
+    }
+    
+    .icon-1:hover {
+        background-color: var(--cor3);
+    }
+    
+    .icon-1>img {
+        width: 20px;
+        margin-left: 10px;
+    }

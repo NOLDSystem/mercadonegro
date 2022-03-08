@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/config.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/produtos.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <script src="./JS/localizador.js"></script>
+    <script src="./JS/partilhar.js"></script>
+    <style>
+         :root {
+            --cor0: #59ADA8;
+            --cor1: #78CCA2;
+            --cor2: #66787A;
+            --cor3: #E49B9C;
+            --cor4: #893962;
+            --cor5: #8d2058;
+        }
+        
+        footer {
+            width: auto;
+            height: 100px;
+            margin-left: 150px;
+            background-color: var(--cor5);
+        }
+        
+        footer>div {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        
+        .ancora-1 {
+            text-decoration: none;
+        }
+        
+        .mod-1>div {
+            display: inline-block;
+            width: auto;
+            height: auto;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" class="form-1">
+
+        <div>
+            <div class="prf">
+                <img src="./img/header1.jpg" alt="" class="perfil">
+                <p>
+                    @noldjunior
+                </p>
+                <hr>
+            </div>
+            <div class="mod-3">
+                <div>
+                    <a href="">
+                        Pagina inicial
+                    </a>
+                </div>
+                <div>
+                    <a href="">messagem</a>
+
+                </div>
+                <hr>
+                <div>
+                    <a href="">sobre</a>
+                </div>
+                <hr>
+                <div>
+                    <a href="">contacto</a>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <header>
+
+        <div class="mod-1">
+
+            <div class="mod-1a">
+                <h1>Mercado negro</h1>
+
+            </div>
+            <div class="icon-1a">
+                <a href=""><img src="./icon/vendas.png" alt=""></a>
+
+            </div>
+            <div class="icon-1a">
+                <a href=""><img src="./icon/pesquisar.png" alt=""></a>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Destaque</h1>
+        <form action="#" class="form-main">
+
+            <div class="form-main-div">
+                <img src="./img/slide-3.jpg" alt="" class="img-vendas">
+                <p class="produto-compra" id="object-compra">
+                    produto: calsas
+                </p>
+                <p class="produto-compra" id="preco-compra">
+                    preco: 500MT
+                </p>
+
+                <input type="button" value="Comprar" class="btn" onclick="btn_comprar()">
+
+
+            </div>
+            <div class="form-main-div">
+                <img src="./img/slide-3.jpg" alt="" class="img-vendas">
+
+                <p class="produto-compra" id="object-compra">
+                    produto: calsas
+                </p>
+                <p class="produto-compra" id="preco-compra">
+                    preco: 500MT
+                </p>
+
+                <input type="button" value="Comprar" class="btn" onclick="btn_comprar()">
+
+            </div>
+            <div class="form-main-div">
+                <img src="./img/slide-3.jpg" alt="" class="img-vendas">
+                <p class="produto-compra" id="object-compra">
+                    produto: calsas
+                </p>
+                <p class="produto-compra" id="preco-compra">
+                    preco: 500MT
+                </p>
+
+                <input type="button" value="Comprar" class="btn" onclick="btn_comprar()">
+
+            </div>
+            <h3>
+                more
+            </h3>
+        </form>
+
+        <h1>
+            Confira os melhores penteados e cortes
+        </h1>
+
+        <div class="publico-foto">
+
+            <img src="./img/header1.jpg" alt="" class="img-1">
+
+            <div class="icon">
+                <div class="icon-1">
+                    <img src="./icon/adoro.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/localizar.png" alt="" onclick="localizador()">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/mais.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/partilhar.png" alt="" onclick="partilhar()">
+                </div>
+            </div>
+        </div>
+
+        <div class="publico-foto">
+            <img src="./img/header1.jpg" alt="" class="img-1">
+            <div class="icon">
+                <div class="icon-1">
+                    <img src="./icon/adoro.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/localizar.png" alt="" onclick="localizador()">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/mais.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/partilhar.png" alt="" onclick="partilhar()">
+                </div>
+            </div>
+
+        </div>
+        <div class="publico-foto">
+            <img src="./img/header1.jpg" alt="" class="img-1">
+
+            <div class="icon">
+                <div class="icon-1">
+                    <img src="./icon/adoro.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/localizar.png" alt="" onclick="localizador()">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/mais.png" alt="">
+                </div>
+
+                <div class="icon-1">
+                    <img src="./icon/partilhar.png" alt="" onclick="partilhar()">
+                </div>
+            </div>
+
+        </div>
+        <div class="publico-foto">
+            <img src="./img/header1.jpg" alt="" class="img-1">
+            <div class="icon">
+                <div class="icon-1">
+                    <img src="./icon/adoro.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/localizar.png" alt="" onclick="localizador()">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/mais.png" alt="">
+                </div>
+                <div class="icon-1">
+                    <img src="./icon/partilhar.png" alt="" onclick="partilhar()">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div>
+
+            <div>
+                <h4>Horario</h4>
+                <ul>
+
+                    <li>
+                        08:30 - 19:00
+
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Links Uteis</h4>
+                <ul>
+                    <li>
+                        <a href="#" class="ancora-1">
+                            Metodo de pagamento
+                        
+                    </li>
+                    <li>
+                        <a href="#" class="ancora-1">
+                            Politica de privacidade
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>
+                    Endereco
+                </h4>
+
+                <ul>
+                    <li>
+                        Av. Samora Machel, EN1 <br> paragem Escola anexa
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>
+                    siga-nos
+                </h4>
+
+                <ul>
+                    <li>
+                        <a href="https://web.facebook.com/LENDAUFS/?ref=pages_you_manage" class="ancora-1" target="blank">
+                            Facebook
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/nolddinomaleane/" class="ancora-1" target="blank">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
